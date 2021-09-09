@@ -1,0 +1,42 @@
+ejs.co
+https://www.npmjs.com/package/mysql2
+
+style usado: aminLTE
+https://adminlte.io/themes/AdminLTE/pages/UI/general.html
+Na pasta projetorestaurante comando:
+npm i express-generator
+depois express --ejs saboroso
+sendo que saboroso é o nome do projeto ai ele cria a pasta
+depois criar variavel de ambiente e iniciar o npm
+set DEBUG=saboroso:* & npm start
+instalar o bower --> gerenciador de pacotes tem função similar ao packat json
+npm install bower --save
+acessar a pasta public/admin
+executar: bower install
+Base de dados SQL saboroso criada no mysql com base na db na psta public/db
+comando no sql para evitar problema no usuario
+instalar package npm mysql2
+npm i mysql2 --save
+criado arquivo dentro da pasta inc (includes) db.js
+adicionado o por NPM o redis para criar sessão:
+npm install --save redis express-session connect-redis
+npm install --save redis connect-redis express-session
+--> instalar banco de dados do redis, conforme o da pasta ou baixar: https://github.com/MicrosoftArchive/redis
+
+-->Instalar Formidable para passar os dados do formulário para o banco por pacotes
+npm install formidable --save
+
+Instalado Moment
+npm install moment --save
+
+bower install chart.js --save --> dentro da pasta saboroso/public/admin
+
+npm i chart.js@2.7.2
+depois copie da pasta node_modules para a pasta public/admin/bower_components a pasta chart.js
+
+SocketIO
+socket.io
+npm install socket.io --save
+
+Start original do json
+"start": "nodemon ./bin/www"
